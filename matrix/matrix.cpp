@@ -9,7 +9,6 @@ TL::Matrix::Matrix(int rows, int cols) {
 }
 
 TL::Matrix::Matrix(const Matrix& other) {
-  if (!&other) throw std::out_of_range("Object doesn't exist");
   CopyMatrices(other);
 }
 
